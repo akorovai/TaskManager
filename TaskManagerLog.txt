@@ -1,0 +1,3 @@
+Table 'Tasks' dropped at 2023-05-28 00:00:44.863875
+Task table created at 2023-05-28 00:00:48.647100
+New task added: Title=finish PPY project, Description=, CreatedAt=2023-05-28 00:03:07.026416
