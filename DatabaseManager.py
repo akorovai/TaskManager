@@ -100,7 +100,7 @@ def add_new_task(con, title, description):
 def delete_task(con, task_id):
     try:
         cur = con.cursor()
-        cur.execute("SELECT IdTask, Title, Description FROM Tasks WHERE IdTask = ?", (task_id,))
+        cur.execute("SELECT * FROM Tasks WHERE IdTask = ?", (task_id,))
         result = cur.fetchone()
 
         if result is None:
